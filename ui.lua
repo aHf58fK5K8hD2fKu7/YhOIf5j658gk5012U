@@ -19,7 +19,7 @@ end)
 
 game.RunService.RenderStepped:Connect(function()
 WaterMark .BorderColor3 = library.Color
-    WaterMark.Text = "uwuhub v1.0.0 rewrite | FPS: "..math.floor(1/wait())
+    WaterMark.Text = "ev0lve.xyz | wy7 | FPS: "..math.floor(1/wait()+114)
 end)
 
 function library:CreateWindow(title)
